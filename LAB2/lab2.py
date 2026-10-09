@@ -1,4 +1,4 @@
-mrna = "ACAAAUGGUAAUCCAGCAUUAUUAA"
+original_mrna = "ACAAAUGGUAAUCCAGCAUUAUUAAAGG"
 full_aa = ""
 
 codon_to_three = {
@@ -58,11 +58,11 @@ three_to_one = {
     'Tyr': 'Y',
 }
 
-for i in range(len(mrna)):
-    if mrna[i : i + 3] == 'AUG':
+for i in range(len(original_mrna)):
+    if original_mrna[i : i + 3] == 'AUG':
         start = i
 
-mrna = mrna[start : ]        
+mrna = original_mrna[start : ]        
 length = len(mrna)
 
 for i in range(length):
@@ -73,5 +73,5 @@ for i in range(length):
     if aa_three == 'Stop':
         break
 
-print(f"mRNA: {mrna}")
+print(f"Orignal mRNA: {original_mrna}")
 print(f"Aminoacid (three letter abbr): {full_aa}")
