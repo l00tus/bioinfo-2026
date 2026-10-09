@@ -1,0 +1,4 @@
+1. design a software application that is able to analyze a dna sequence as equal in "ATGTAATAGCGGAATTCGAGCGTAATCGAATTT".
+the output of the application must show the freq for each letter in the alphabet of the sequence.
+
+2. find the frequency for all the combinations of 2 and 3 letters and plot those frequencies on a chart

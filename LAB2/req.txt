@@ -1,0 +1,4 @@
+1.implement an application that converts the coding region of a gene into an AA sequence.
+use the genetic code table from the slide.
+
+2. aug - start, when encountering stop, then stop.
