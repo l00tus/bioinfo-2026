@@ -1,0 +1,6 @@
+download a genome from ncpi, make an application which samples the genome (the fasta file) such that
+20.000 samples are taken above the genome. each sample must have a length between 100 and 150 letters (nucleotides).
+
+second task:
+design/implement an application that is able to use the 20.000 samples in order to reconstruct the original genome.
+the case here is that you consider that you dont have access to the original genome. 
