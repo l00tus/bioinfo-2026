@@ -1,0 +1,2 @@
+1. take an arbitrary DNA sequence from NCBI (either a bacterial genome or viral genome)
+to use 3 restriction enzymes (enzyme name, recognized sequence, cleavage site)
