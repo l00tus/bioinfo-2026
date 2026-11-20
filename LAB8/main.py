@@ -8,7 +8,7 @@ def s(s1, s2):
 
 
 s1 = np.array(list("ACCGTGACAAGCCAATAC"))
-s2 = np.array(list(""))
+s2 = np.array(list("AGCGTGCAGCCAATAC"))
 
 matrix = np.zeros((len(s1) + 1, len(s2) + 1))
 
