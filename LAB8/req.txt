@@ -1,0 +1,1 @@
+implement a software app that aligns two DNA seq by using Needleman-Wunsch alg.
