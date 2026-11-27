@@ -7,8 +7,8 @@ def s(s1, s2):
         return mmatch
 
 
-s1 = np.array(list("ACCGTGACAAGCCAATAC"))
-s2 = np.array(list("AGCGTGCAGCCAATAC"))
+s1 = np.array(list("ACTGGGTAACCGATACGCTACTA"))
+s2 = np.array(list("ACTGGACTACCGAAGCTACTA"))
 
 matrix = np.zeros((len(s1) + 1, len(s2) + 1))
 

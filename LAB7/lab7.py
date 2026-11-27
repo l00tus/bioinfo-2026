@@ -26,7 +26,7 @@ for e in ENZYMES:
         cuts.append(i + offset)
         i = seq.find(site, i + 1)
  
-    # split the sequence at the cuts
+    # split at cuts
     fragments = []
     prev = 0
     for c in cuts:
@@ -38,3 +38,4 @@ for e in ENZYMES:
     print(f"{name} ({site}): {len(cuts)} cleavages")
     print("cut positions:", cuts)
     print("fragment lengths:", [len(f) for f in fragments])
+    
